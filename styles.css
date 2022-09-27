@@ -20,9 +20,10 @@ background: #ffffff;
     justify-content: center;  
 }
 #palisades, #lake, #bake{
-    width: 200px;
+    width: 420px;
     margin: 10px auto auto auto; 
     border-bottom: 4px solid #A8DADC;
+    height: 220px; 
 }
 .activity {
     display: block; 
