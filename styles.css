@@ -1,0 +1,64 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+background: #ffffff;
+}
+#actsect{
+    display: flex ;
+    
+    
+}
+#palisades, #lake, #bake{
+    width: 200px;
+    margin: 10px; 
+    border-bottom: 4px solid #A8DADC;
+}
+.activity {
+    display: block; 
+    width: 200px;
+    height: 120px; 
+    border-radius: 20px; 
+}
+.guide{
+    width: 200px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 100px; 
+}
+#banner{
+    display: flex; 
+    background-image: url("images/rocklandwater.webp");
+    width: auto;
+    height: 200px;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 30px;
+    background-position:center;
+    border: 2px 2px 1px #ffffff; 
+    color: #86CB92;
+}
+
+#palisades{
+    display: block; 
+}
+#border{
+    border-bottom: 4px solid #A8DADC;
+    border-top: 4px solid #A8DADC;
+}
+h4{
+    margin-top: 40px; 
+    margin-bottom: 4px; 
+    font-size: 20px; 
+}
