@@ -12,68 +12,138 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-background: #ffffff;
-}
-#actsect{
-    display: flex ;
-    justify-content: center; 
-    align-items: center; 
-    width: 100%; 
-    border-bottom: 4px solid #A8DADC;
-     
-    
-}
-#palisades, #lake, #bake {
-width: 80%;
-margin: auto 12px;  
-}
-.activity {
-display: block; 
- width: auto ;
-max-width: 100% ;
-height: 20vw;
-border-radius: 20px; 
-         
-}
-#text-activity {
-  
-    
-}
-.guide{
-    width: 200px; 
-    margin-top: 20px; 
-    margin-bottom: 40px; 
-    border-radius: 100px; 
-}
-#banner{
-    display: flex; 
-    background-image: url("images/rocklandwater.webp");
-    width: auto;
-    height: 200px;
-    text-align: center;
-    align-items: center; 
-    justify-content: center; 
-    font-size: 30px;
-    background-position:center;
-    border: 2px 2px 1px #ffffff; 
-    color: #86CB92;
+    font-family: 'Oxygen', sans-serif;
 }
 
-#palisades{
-    display: block; 
+/* HERO SECTION */
+.hero{
+    margin: 0; 
+    background-image: url("images/rocklandcounty.jpg");
+    background-size: cover; 
+    padding: 170px 150px 100px 150px;
+  color: white; 
 }
-#border{
-    border-bottom: 4px solid #A8DADC;
-    border-top: 4px solid #A8DADC;
+.hero-column{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-h4{
-    margin-top: 40px; 
-    margin-bottom: 4px; 
-    font-size: 20px; 
+#hero-text{
+     background: #A8DADC;
+    padding: 3px;
+    border-radius: 7px;
+    font-size: 33px;
+    margin: 0;
 }
-a{
-    color: black;
+#hero-text2{
+    background: #457B9D;
+    padding: 5px 3px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;   
 }
-a:hover{
-    color: aquamarine;
+
+/*ACTIVITY SECTION*/
+
+.act{
+   margin: 0;  
+    display: flex;
+    flex-direction: column;
+    background: #F1FAEE;
+   
+}
+#act-title{
+    color: #1D3557;
+    font-size: 24px;
+}
+.act-container{
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+    
+}
+.act-column {
+  width: 600px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    color:#1D3557 ;
+}
+.act-column:hover {
+  width: 650px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px #A8DADC;
+    transition: 0.5s;
+}
+
+.act-img {
+   width: 100px;
+    border-radius: 50%;
+    height: 80px; 
+}
+/*GUIDE SECTION*/
+.guide {
+    padding: 50px;  
+}
+.guide-card{
+ margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: #A8DADC;
+    color: #1D3557;
+    border-bottom: 4px solid #457B9D;
+    text-shadow: 0px 0px 1px ; 
+    padding: 15px 15px 15px 0px;
+    border-radius: 3px;    
+}
+.guide-card:hover {
+    width: 410px;
+    height: 210px;
+    transition: 0.5s;
+}
+
+#img-guide{ 
+    width: 180px;
+    height: 190px; 
+    border-radius: 20px;
+    
+}
+.guide-column{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+/*NEWSLETTER SECTION*/
+form {
+}
+.container {
+  padding: 20px;
+  background-color: #F1FAEE;
+  color: #1D3557; 
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  margin-top: 16px;
+}
+input[type=submit] {
+  background-color: #1D3557;
+  color: white;
+  border: none;
+  width: 20%;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
 }

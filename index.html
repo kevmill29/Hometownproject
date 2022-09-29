@@ -1,51 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta charset="utf">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+        <title>Hometown Homepage</title>
     </head>
     <body>
-        <!--BANNER SECTION-->
-        <div id="banner">
-           
-        </div>
-            
         
         <!-- HERO SECTION -->
-        <div id="border">
-            <h1>Come See What You Are Missing!</h1>
-            <h2>Enjoy the shopping centers in this vibrant district close to the city of New York!</h2>
+        <div class="hero">
+            <div class="hero-column">
+            <h1 id="hero-text">Visit Rockland County</h1>
+            <h2 id="hero-text2">Enjoy the shopping centers in this vibrant district close to the city of New York!</h2>
+            </div>
+        
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <div >
-            <h3>Top three activities to do at Spring Valley</h3>
-            </div>
-            <div id="actsect" >
-             <div id="palisades">
-                <img class="activity" src="images/palisades-center.jpg" alt="A photo of the center of the Palisades Mall showcasing the various floors and attractions around.">
-                 <h5 id="text-activity"> Come see the World Famous Palisades Shopping Center with all of your favorite stores and outlets! </h5>
-             </div>
-             <div id="lake">  
-            <img class="activity" src="images/rocklandlake.jpg" alt="A running trail alongside Rockland Lake with a woman running towards clear skies.">
-            <h5 id="text-activity"> Enjoy the outdoors at Rockland Lake! Experience the waterpark, hiking trails, camping, and more!</h5>
-            </div>
-            <div id="bake">
-            <img class="activity" src="images/rocklandbakery.webp"  alt="Fresh Delicious treats and sweets at the Rockland Bakery ready to eaten">
-            <h5 id="text-activity"> At the Rockland Bakery you can satisfy your sweet tooth at a World Class bakery!
+        
+       
+        <div class="act"> 
+            <h3 id="act-title">Top three activities to do in Rockland County!</h3>
+           <div class="act-container"> 
+                
+                <div class="act-column">      
+                    <img class="act-img" src="images/rocklandbakery.webp">
+                        <h4 id="act-text">Eat some sweets!!</h4>
+                         <p id="act-text">At the Rockland Bakery you can satisfy your sweet tooth at a World Class bakery!</p>
+                 </div>
+               
+                <div class="act-column"> 
+                 <img class="act-img" src="images/rocklandlake.jpg">
+                    <h4 id="act-text">Enjoy the outdoors!</h4>
+                     <p id="act-text">At Rockland Lake experience the waterpark, hiking trails, camping, and more!</p>
+                </div>
+                
+                <div class="act-column"> 
+                    <img class="act-img" src="images/palisades-center.jpg">
+                    <h4 id="act-text">Shop at one of the world's biggest malls!</h4> 
+                        <p id="act-text">Inside the Palisades Shopping Center with all of your favorite stores and outlets!</p>
+                </div>
+           
             </div>
         </div>
-
 
         <!-- GUIDE SECTION -->
-        <div >
-            <h3>Your guide</h3>
-            <p>"Having the privilege of experiencing the fun and the sights of Rockland County for over 20 years, I know exactly where to go no matter what your tastes are."</p>
-            <h4>Kevin Emile</h4>
-            <img class="guide" src="images/kevinphoto(1).webp" alt="Kevin wearing a white T-shirt, smiling on a sunny day in Rockland county." >
+        <div class="guide">
+            <div class="guide-card">
+                <div class="guide-column">
+                <img id="img-guide" src="images/kevinphoto(1).webp">
+                </div>       
+                <div class="guide-column">       
+                <h3>Your guide</h3>
+                <p><i>"I have lived in Rockland County for over 20 years, so I can show you all of its best parts and hidden secrets."</i></p>
+                <h4>Kevin Emile</h4>
+                </div>
+            </div>            
         </div>
+    <div class="newslet">
+        <form action="action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+
+  <div class="container">
+    <input class="button" type="submit" value="Subscribe">
+  </div>
+</form>
+     </div>
     </body>
-    <footer><i>Contact me for more info at <a href="tel:8459999999">845-999-9999</i></a></footer>
 </html>
