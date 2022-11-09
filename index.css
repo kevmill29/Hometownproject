@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+   width: 550px;
+height: 729px;
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F4F4;
+  margin: 0;
+}
+
+/* General Styling */
+
+.container{
+     background-color: #0284C7;
+    width:100vw;
+    height: 285px;
+left:0;
+right:0;
+margin: 0 auto 34px auto; 
+text-align: center; 
+color: white; 
+display: flex; 
+flex-direction: column;
+}
+
+input {
+    margin: auto; 
+    border: 2px solid #FEF3C7;
+  width: 117px;
+   height: 83px; 
+   font-size: 58px; 
+   border-radius: 5px; 
+padding-top:10px;
+background-color: #0284C7;
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 24px;
+text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button{
+  background-color: white; 
+    width: 117px; 
+    height: 42px; 
+    margin: 26px auto; 
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border: none; 
+    font-size: 16px; 
+}
+
+/* Typology Section */
+
+p{
+    color: #353535;
+    margin-bottom: 18.56px;
+    margin-top: 10px; 
+}
+
+.conversion {
+background-color: #FFFFFF;
+width: 90.9vw;
+height: 108.57px;
+margin-left:25px;
+margin-right:25px;
+text-align: center;
+}
+
+h2{
+    padding-top: 31px;
+    color: #0C4A6E;
+}
+
+h3{
+    font-size: 28px; 
+}
+ .length-div{
+    margin-top: 36px;
+}
+
+.mass-div,  .length-div{
+    margin-bottom: 23.43px;
+}
+
+ .volume-div{
+    margin-bottom: 0;
+}
